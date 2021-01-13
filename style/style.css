@@ -1,0 +1,61 @@
+body {
+   background-color: #edf2f8;
+   font-family: "Barlow Semi Condensed", sans-serif;
+   text-align: left;
+}
+/* Parent container */
+.grid-container {
+   display: grid;
+   grid-gap: 2px;
+   background-color: #edf2f8;
+   padding-left: 10rem;
+   padding-right: 10rem;
+   padding-top: 10rem;
+}
+.grid-container > div {
+   border-radius: 20px;
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   width: fit-content;
+   height: fit-content;
+}
+/* Daniel Clifford Area */
+.Daniel {
+   background-color: #733fc8;
+   color: #ffffff;
+   grid-column: 1 / span 1;
+}
+
+/* Jonathan Walters Area  */
+.Jonathan {
+   background-color: #49556b;
+   color: #878e99;
+   grid-column: 2 / span 1;
+}
+/* Kira Whittle Area */
+.Kira {
+   background-color: #ffffff;
+   color: #c6c7cd;
+   grid-column: 3 / span 1;
+}
+/* Jeanette Harmon Area */
+.Jeanette {
+   background-color: #ffffff;
+   color: #c6c7cd;
+   grid-column: 1 / span 1;
+}
+/* Patrick Abrams Area */
+.Patrick {
+   background-color: #18202d;
+   color: #878e99;
+   grid-column: 2 / span 1;
+}
+/* Footer Area */
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
